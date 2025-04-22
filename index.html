@@ -6,15 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Mi primer codigo en JavaScript</h1>
-    <script>
-      // window.alert('Mi primera clase en Certus aplicando JavaScript')
-      /*
-          comentario 1
-          comentario 2
-          comentario 3
+    <div id="mensaje"></div>
+    <div id="resultado"></div>
+    
+<script>
+  var _valor1=10; 
 
-      */
-    </script>
+  var $valor2=30;
+
+  var suma=_valor1+$valor2;
+
+  document.getElementById('resultado').innerHTML = "El resultado de la suma es: "+suma;
+
+  var nombreInstituto="Certus";
+  document.getElementById('mensaje').innerHTML="Bienvenido a "+nombreInstituto;
+</script>
+
 </body>
 </html>
